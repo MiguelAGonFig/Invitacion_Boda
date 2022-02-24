@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Raleway:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+    width: 350px;
+    height: 350px;
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datos{
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.evento{
+    font-size: smaller;
+    padding: 0px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.titulo{
+    font-style:initial;
+    font-weight:bolder;
+    font-stretch: semi-expanded;
+    font-family: 'Sacramento', cursive;
+    font-size: xx-large;
+    color: #CFB53B;
+    margin-bottom: 8px;
+}
+
+.complementos{
+    font-size: 2vh;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.countdown{
+    color: #CFB53B;
+    font-size: small;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+#cuenta {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.simply-section {
+    background-color: #ffffff;
+    border: solid 2px #CFB53B;
+    overflow:hidden;
+	width: 63px;
+	height: 63px;
+	margin-left: 6px;
+    margin-right: 6px;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+    font-family: 'Gideon Roman', cursive;
+	font-size: 12px;
+	font-weight: 700;
+	color: #000;
+    margin:0px
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 10px;
+	color: #000;
+    margin:0px
+}
+
+.contenido{
+    display: block;
+    width: 100%;
+}
+
+.padrinos{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cargo{
+    color: #CFB53B;
+    font-size: small;
+    margin-bottom: 0px;
+}
+
+.nombres{
+    margin-top: 0px;
+    font-size: large;
+}
+
+.separador{
+    width: 100%;
+    height: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.linea{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: solid 2px #CFB53B;
+    opacity: 100%;
+}
+
+.ico{
+    width: 65px;
+    height: 65px;
+    margin-bottom: 8px;
+}
+
+.descripcion{
+    text-align: center;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 2px;
+}
+
+.accion{
+    font-size: medium;
+    font-style: bold;
+    color: #CFB53B;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.nom{
+    font-size: small;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.dato{
+    font-size: small;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.ubicacion{
+    background-color: #CFB53B;
+    border-radius: 50%;
+    padding: 8px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 35px;
+}
+
+.ubicacion a{
+    text-decoration: none;
+    font-size: small;
+    color: #FFFFFF;
+}
+
+.despedida{
+    font-size: large;
+    text-align: center;
+    font-style: italic;
+}
+
+.final{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    border: solid 2px #CFB53B;
+    opacity: 100%;
+}
