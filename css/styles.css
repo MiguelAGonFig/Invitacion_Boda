@@ -188,6 +188,9 @@ body{
     font-size: large;
     text-align: center;
     font-style: italic;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 5px;
 }
 
 .final{
